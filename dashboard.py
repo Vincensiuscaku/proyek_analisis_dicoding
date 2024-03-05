@@ -4,7 +4,7 @@ import numpy as np
 import plotly.express as px
 
 # Loading required dataset
-dataset_hour = pd.read_csv("C:/dicoding/Proyek_analisis_data_bike_sharing.csv")
+dataset_hour = pd.read_csv("Proyek_analisis_data_bike_sharing.csv")
 
 # Convert 'dteday' to datetime format
 dataset_hour['dteday'] = pd.to_datetime(dataset_hour['dteday'])
